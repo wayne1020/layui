@@ -1,0 +1,34 @@
+{  
+  "name": "wayne1020/layui",  
+  "description": "Layui for Yii2",  
+  "keywords": [  
+    "yii2",  
+    "layui"  
+  ],  
+  "homepage": "https://github.com/wayne1020/layui",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/wayne1020/layui"  
+  },  
+  "authors": [  
+    {  
+      "name": "JohnWayne",  
+      "email": "John_Wayne404@163.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "wayne\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}
